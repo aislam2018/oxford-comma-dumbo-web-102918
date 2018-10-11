@@ -7,7 +7,9 @@ def oxford_comma(array)
   
     new_arr = []
     array.each do |ele|
+      if ele != array[-1]
     new_ele = ele + ","
+  end
     new_arr.push(new_ele)
     end
   end
