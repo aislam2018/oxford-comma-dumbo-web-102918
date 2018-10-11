@@ -9,6 +9,8 @@ def oxford_comma(array)
     array.each do |ele|
       if ele != array[-1]
     new_ele = ele + ","
+  else
+    new_ele = ele
   end
     new_arr.push(new_ele)
     end
